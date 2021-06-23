@@ -1,0 +1,85 @@
+body {
+  min-height: 100vh;
+  background-image: url(/images/bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+* {
+  font-family: 'Oswald', Tahoma;
+}
+
+.container2 {
+  position: relative;
+  color: black;
+  margin-top: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.top-contact {
+  padding-top: 100px;
+  width: 80%;
+  width: 100%;
+  color: white;
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+.nav-item {
+  width: fit-content !important;
+  width: -moz-fit-content !important;
+  display: inline-block;
+}
+
+.container2 {
+  position: relative;
+  color: black;
+  margin-top: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.top-contact {
+  padding-top: 100px;
+  width: 80%;
+  width: 100%;
+  color: white;
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+label {
+  color: white;
+  width: 100%;
+}
+
+.nav-item {
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.min-height {
+    min-height: calc(100vh - 250px);
+}
